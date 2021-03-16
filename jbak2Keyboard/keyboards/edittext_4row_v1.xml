@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<Row android:keyHeight="100%p"  android:keyWidth="199.7%p">
+	<Key android:keyLabel="Rec\nPlay"
+		android:codes="-331"
+		android:longCode="-330"/>
+	<Key android:keyLabel="Home"
+		android:codes="-328"/>
+	<Key android:keyLabel="↑"
+		android:codes="19"
+		android:isRepeatable="true"/>
+	<Key android:keyLabel="End"
+		android:codes="-329"/>
+	<Key android:keyLabel="⌫"
+		android:smallLabel="true"
+		android:codes="-5"
+		android:isRepeatable="true"/> 
+</Row>
+
+<Row android:keyHeight="100%p" android:keyWidth="199.7%p">
+	<Key android:keyLabel="Clear\n$f#ɓ"
+		android:codes="9"
+		android:longCode="-332"/>
+	<Key android:keyLabel="←"
+		android:codes="21"
+		android:isRepeatable="true"/>
+	<Key android:keyLabel="Select"
+		android:codes="-310"
+		android:isSticky="true"/>
+	<Key android:keyLabel="→"
+		android:codes="22"
+		android:isRepeatable="true"/>
+	<Key android:keyLabel="Enter"
+		android:codes="10"/>
+</Row>
+
+<Row android:keyHeight="100%: p" android:keyWidth="199.7%p">
+	<Key android:keyLabel="Cut\n$f#ɥ"
+		android:codes="-322"
+		android:longCode="-6"/>
+	<Key android:keyLabel="Copy\n$f#ɢ"
+		android:codes="-320"/>
+	<Key android:keyLabel="↓"
+		android:codes="20" 
+		android:isRepeatable="true"/>
+	<Key android:keyLabel="Paste\n$f#ɣ"
+		android:codes="-321"/>
+	<Key android:keyLabel="?"/>
+</Row>
+
+<Row android:keyHeight="100%p" android:keyWidth="199.7%p">
+	<Key android:keyLabel="ABC" 
+		android:codes="-2" 
+		android:specKey="true"/>
+	<Key android:keyLabel="Tmpl" android:codes="-502"/>
+	<Key android:codes="32"android:keyIcon="@drawable/sym_keyboard_space"/>
+	<Key android:keyLabel="Clp mngr" 
+		android:codes="-504"/>
+	<Key android:keyLabel="?"/>
+</Row>
+
+</Keyboard>

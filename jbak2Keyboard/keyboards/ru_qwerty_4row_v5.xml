@@ -1,0 +1,81 @@
+<?xml version="1.0"encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="9.97%p">
+
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel="!\n1"/>
+	<Key android:keyLabel="&quot;\n2"/>
+	<Key android:keyLabel="№\n3"/>
+	<Key android:keyLabel=";\n4"/>
+	<Key android:keyLabel="%\n5"/>
+	<Key android:keyLabel=":\n6"/>
+	<Key android:keyLabel="?\n7"/>
+	<Key android:keyLabel="*\n8"/>
+	<Key android:keyLabel="(\n9"/>
+	<Key android:keyLabel=")\n0"/>
+</Row>
+
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel="\nй"/>
+	<Key android:keyLabel="\nц"/>
+	<Key android:keyLabel="\nу"/>
+	<Key android:keyLabel="\nк"/>
+	<Key android:keyLabel="\nе"/>
+	<Key android:keyLabel="/\nн"/>
+	<Key android:keyLabel="_\nг"/>
+	<Key android:keyLabel="+\nш"/>
+	<Key android:keyLabel="\nз"/>
+	<Key android:keyLabel="\nх"/>
+</Row>
+ 
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel="\nф"/>
+	<Key android:keyLabel="\nы"/>
+	<Key android:keyLabel="\nв"/>
+	<Key android:keyLabel="\nа"/>
+	<Key android:keyLabel="\nп"/>
+	<Key android:keyLabel="\\\nр"/>
+	<Key android:keyLabel="-\nо"/>
+	<Key android:keyLabel="=\nл"/>
+	<Key android:keyLabel="\nд"/>
+	<Key android:keyLabel="⌫"
+		android:smallLabel="true"
+		android:codes="-5"
+		android:isRepeatable="true"/> 
+</Row>
+
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel="\nя"/>
+	<Key android:keyLabel="\nч"/>
+	<Key android:keyLabel="\nс"/>
+	<Key android:keyLabel="\nм"/>
+	<Key android:keyLabel="\nи"/>
+	<Key android:codes="32"
+		android:keyIcon="@drawable/sym_keyboard_space"/>
+	<Key android:keyLabel="&lt;\nт"/>
+	<Key android:keyLabel="&gt;\nь"/>
+	<Key android:keyLabel=",\nб"/>
+	<Key android:keyLabel=".\nю"/>
+	<Key android:codes="-1"
+		android:keyIcon="Shift"
+		android:isSticky="true"
+		android:keyWidth="20%p" />
+</Row>
+
+<Replace from="ьь" to="ъ"/>
+<Replace from="шш" to="щ"/>
+<Replace from="йй" to="э"/>
+<Replace from="зз" to="ж"/>
+<Replace from="Ьь" to="Ъ"/>
+<Replace from="Шш" to="Щ"/>
+<Replace from="Йй" to="Э"/>
+<Replace from="Зз" to="Ж"/>
+<Replace from="ЬЬ" to="Ъ"/>
+<Replace from="ШШ" to="Щ"/>
+<Replace from="ЙЙ" to="Э"/>
+<Replace from="ЗЗ" to="Ж"/>
+<Replace from="  " to=". "/>
+<Replace from=" -- " to=" — "/>
+<Replace from=",. " to=", "/>
+
+
+</Keyboard>

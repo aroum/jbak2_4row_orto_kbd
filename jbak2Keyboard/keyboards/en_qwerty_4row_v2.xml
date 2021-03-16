@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="8.3%p" >
+
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel="!\n1"/>
+	<Key android:keyLabel="@\n2"/>
+	<Key android:keyLabel="#\n3"/>
+	<Key android:keyLabel="$\n4"/>
+	<Key android:keyLabel="%\n5"/>
+	<Key android:keyLabel="^\n6"/>
+	<Key android:keyLabel="&amp;\n7"/>
+	<Key android:keyLabel="*\n8"/>
+	<Key android:keyLabel="(\n9"/>
+	<Key android:keyLabel=")\n0"/>
+	<Key android:keyLabel="_\n-"/>
+	<Key android:keyLabel="⌫"
+		android:smallLabel="true" 
+		android:codes="-5"
+		android:isRepeatable="true" /> 
+</Row>
+
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel="q"/>
+	<Key android:keyLabel="w"/>
+	<Key android:keyLabel="e"/>
+	<Key android:keyLabel="r"/>
+	<Key android:keyLabel="t"/>
+	<Key android:keyLabel="y"/>
+	<Key android:keyLabel="u"/>
+	<Key android:keyLabel="i"/>
+	<Key android:keyLabel="o"/>
+	<Key android:keyLabel="p"/>
+	<Key android:keyLabel="{\n["
+		android:popupCharacters="«{[]}»"
+		android:specKey="false"/>
+	<Key android:codes="-1"
+		android:keyIcon="@drawable/sym_keyboard_shift"
+		android:isSticky="true"/>
+</Row>
+ 
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel="a"/>
+	<Key android:keyLabel="s"/>
+	<Key android:keyLabel="d"/>
+	<Key android:keyLabel="f"/>
+	<Key android:keyLabel="g"/>
+	<Key android:keyLabel="h"/>
+	<Key android:keyLabel="j"/>
+	<Key android:keyLabel="k"/>
+	<Key android:keyLabel="l"/>
+	<Key android:keyLabel=":\n;"/>
+	<Key android:keyLabel="&quot;\n'"/>
+	<Key android:codes="10"
+		android:keyIcon="@drawable/sym_keyboard_return"/>
+</Row>
+
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel="z"/>
+	<Key android:keyLabel="x"/>
+	<Key android:keyLabel="c"/>
+	<Key android:keyLabel="v"/>
+	<Key android:keyLabel="b"/>
+	<Key android:codes="32"
+		android:keyIcon="@drawable/sym_keyboard_space"
+		android:keyWidth="16.6%p"/>
+	<Key android:keyLabel="n"/>
+	<Key android:keyLabel="m"/>
+	<Key android:keyLabel="&lt;\n,"/>
+	<Key android:keyLabel="&gt;\n."/>
+	<Key android:keyLabel="?\n/"/>
+</Row>
+
+</Keyboard>

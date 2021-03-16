@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="ie_design">0</string>
+    <boolean name="show_size_record_clipboard" value="true" />
+    <string name="system_lang">en</string>
+    <string name="enter_pict">4</string>
+    <boolean name="sound" value="false" />
+    <string name="pLabelFont">2;1;0.029967727</string>
+    <boolean name="del_space" value="true" />
+    <boolean name="vibro_repeat" value="false" />
+    <boolean name="ac_list_dropdown" value="false" />
+    <boolean name="add_space_before_sentence" value="true" />
+    <boolean name="pref_set_font_kbd" value="true" />
+    <string name="mm_textsize_btn_off">8</string>
+    <string name="landscape_type">0</string>
+    <string name="g_velocity">150</string>
+    <boolean name="show_kbd_notif" value="false" />
+    <boolean name="sta_color_edittext" value="false" />
+    <string name="lang_app">en</string>
+    <string name="pAcFont">0;0;0.008759798</string>
+    <boolean name="ac_abbreviated_dict" value="false" />
+    <int name="int_min_press" value="1" />
+    <string name="kbd_skin_path">/storage/emulated/0/jbak2Keyboard/skins/gruvbox_dark.skin</string>
+    <string name="use_volume_keys">0</string>
+    <string name="lastLng">en</string>
+    <int name="lh_rh_showact_toolbar" value="3" />
+    <string name="g_space_left">0</string>
+    <boolean name="keycode" value="false" />
+    <boolean name="ac_place_arrow_down" value="false" />
+    <string name="mainmenu_new">-502,-504,-503,-629,-517,-511,</string>
+    <boolean name="enter_state" value="false" />
+    <string name="g_space_right">0</string>
+    <string name="mm_textsize_btn">15</string>
+    <boolean name="ac_space" value="true" />
+    <string name="g_length">100</string>
+    <boolean name="mini_kbd_its" value="false" />
+    <boolean name="up_empty" value="true" />
+    <boolean name="space_sentence" value="true" />
+    <string name="kp_path_en">/storage/emulated/0/jbak2Keyboard/keyboards/en_qwerty_4row_v7.xml</string>
+    <boolean name="ac_student_ext_dict" value="false" />
+    <string name="theme_interface_application">1</string>
+    <string name="sound_volume">5</string>
+    <boolean name="vl" value="false" />
+    <string name="g_space_up">-602</string>
+    <int name="int_long_press" value="300" />
+    <int name="int_next_repeat" value="30" />
+    <boolean name="space_after_sentence" value="false" />
+    <float name="kh_p" value="0.06823421" />
+    <boolean name="set_arrow_key" value="false" />
+    <string name="shift_state">3</string>
+    <string name="g_up">-1</string>
+    <int name="kbd_pos_p" value="0" />
+    <boolean name="copy_toast" value="false" />
+    <string name="kp_path_ru">/storage/emulated/0/jbak2Keyboard/keyboards/ru_qwerty_4row_v7.xml</string>
+    <boolean name="up_after_symbols" value="true" />
+    <string name="portrait_type">0</string>
+    <string name="kl_path_ru">/storage/emulated/0/jbak2Keyboard/keyboards/ru_qwerty_4row_v7.xml</string>
+    <boolean name="ac_replace_separator_symbol" value="false" />
+    <string name="kl_path_en">/storage/emulated/0/jbak2Keyboard/keyboards/en_qwerty_4row_v7.xml</string>
+    <int name="kbd_act_back_col" value="0" />
+    <boolean name="ac_autocorrect" value="false" />
+    <string name="kl_path_edittext">/storage/emulated/0/jbak2Keyboard/keyboards/edittext_4row_v1.xml</string>
+    <boolean name="ac_student_dict" value="false" />
+    <boolean name="up_sentence" value="true" />
+    <string name="g_down">10</string>
+    <string name="add_space_before_symbols">—№</string>
+    <string name="langs">en,ru</string>
+    <string name="minikbd_btn_size">0</string>
+    <string name="minikbd_btn_text_size">0</string>
+    <int name="int_first_repeat" value="300" />
+    <string name="sentence_ends">.!?</string>
+    <boolean name="set_tpl_path" value="true" />
+    <string name="macro1">21,21,21,21,21,21,21,20,20,20,20,20,</string>
+    <string name="del_space_symbols">.,!?;:</string>
+    <int name="pref_vertcorr_p" value="-17" />
+    <string name="space_symbols">.,!?:;</string>
+    <string name="key_preview">0</string>
+    <boolean name="counter" value="false" />
+    <string name="popup_win_size">0</string>
+    <string name="pSecondFont">2;0;0.022130014</string>
+    <string name="g_left">-20</string>
+    <string name="g_right">-619</string>
+    <string name="g_space_down">0</string>
+    <boolean name="vibro_silent" value="false" />
+    <string name="kp_path_edittext">/storage/emulated/0/jbak2Keyboard/keyboards/edittext_4row_v1.xml</string>
+    <string name="pref_ac_window_type">2</string>
+    <string name="pMainFont">2;1;0.026740434</string>
+    <string name="ac_place">0</string>
+    <string name="vibro_short">0</string>
+</map>
