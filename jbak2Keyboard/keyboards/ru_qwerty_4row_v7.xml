@@ -28,7 +28,8 @@
 </Row>
  
 <Row android:keyHeight="100%p">
-	<Key android:keyLabel="\nж"/>
+	<Key android:keyLabel="\nж"
+	     android:longCode="-323"/> 
 	<Key android:keyLabel="\nы"/>
 	<Key android:keyLabel="\nв"/>
 	<Key android:keyLabel="\nа"/>
@@ -38,32 +39,32 @@
 	<Key android:keyLabel="=\nл"/>
 	<Key android:keyLabel="\nд"/>
 	<Key android:keyLabel="⌫"
-		android:smallLabel="true"
-		android:codes="-5"
-		android:isRepeatable="true"
-        	android:longCode="-602"/>
+		 android:smallLabel="true"
+		 android:codes="-5"
+		 android:isRepeatable="true"
+         android:longCode="-602"/>
 </Row>
 
 <Row android:keyHeight="100%p">
 	<Key android:keyLabel="\nя"
-		android:longCode="-336"/>
+		 android:longCode="-336"/>
 	<Key android:keyLabel="\nч"
-		android:longCode="-322"/>
+		 android:longCode="-322"/>
 	<Key android:keyLabel="\nс"
-		android:longCode="-320"/>
+		 android:longCode="-320"/>
 	<Key android:keyLabel="\nм"
-		android:longCode="-321"/>
+		 android:longCode="-321"/>
 	<Key android:codes="32"
-		android:keyIcon="@drawable/sym_keyboard_space"
-		android:keyWidth="20%p"/>
+		 android:keyIcon="@drawable/sym_keyboard_space"
+		 android:keyWidth="20%p"/>
 	<Key android:keyLabel="&lt;\nи"/>
 	<Key android:keyLabel="&gt;\nт"/>
 	<Key android:keyLabel=",\nь"/>
 	<Key android:keyLabel="\nю"/>
 	<Key android:codes="-1"
-		android:keyIcon="Shift"
-		android:isSticky="true"
-		android:keyWidth="20%p" />
+		 android:keyIcon="Shift"
+		 android:isSticky="true"
+		 android:keyWidth="20%p" />
 </Row>
 
 <Replace from="ьь" to="ъ"/>
@@ -85,6 +86,5 @@
 <Replace from=",  " to=", "/>
 <Replace from=" -- " to=" — "/>
 <Replace from=",. " to=", "/>
-
 
 </Keyboard>
