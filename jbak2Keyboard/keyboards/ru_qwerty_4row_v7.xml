@@ -19,7 +19,7 @@
 	<Key android:keyLabel="\nб"/>
 	<Key android:keyLabel="\nу"/>
 	<Key android:keyLabel="\nк"/>
-	<Key android:keyLabel="\nе"/>
+	<Key android:keyLabel="ё\nе"/>
 	<Key android:keyLabel="/\nн"/>
 	<Key android:keyLabel="_\nг"/>
 	<Key android:keyLabel="+\nш"/>
