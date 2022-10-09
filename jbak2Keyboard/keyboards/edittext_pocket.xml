@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+<Row android:keyHeight="100.0%: p" android:keyWidth="100%p">
+	<Key android:keyLabel="$f#ɓ"
+		 android:codes="9"/>
+	<Key android:keyLabel=""
+		 android:codes="-328"/>
+	<Key android:keyLabel=""
+		 android:codes="-328"/>
+	<Key android:keyLabel="ABC" 
+		 android:codes="-2" 
+		 android:specKey="true"/>
+	<Key android:keyLabel="" />
+	<Key android:keyLabel="$f#ə"
+	     android:codes="-337"/>
+	<Key android:keyLabel="Home"
+		 android:codes="-328"
+		 android:longCode="-303"/>
+	<Key android:keyLabel="" />
+	<Key android:keyLabel="PgUp"
+		 android:codes="-326"/>
+	<Key android:keyLabel="" />
+</Row>
+
+<Row android:keyHeight="100.0%: p" android:keyWidth="100%p">
+	<Key android:keyLabel="sAll"
+         android:codes="-323"/>
+	<Key android:keyLabel="$f#ɹ"
+		 android:codes="-310"
+		 android:isSticky="true"/>
+	<Key android:keyLabel=""
+		 android:codes="-328"/>
+	<Key android:keyLabel="$f#ᄿ" 
+		 android:codes="-504"/>
+	<Key android:keyLabel=""
+		 android:codes="-328"/>
+    <Key android:keyLabel="←"
+		 android:codes="21"
+		 android:isRepeatable="true"/>
+	<Key android:keyLabel="↓"
+		 android:codes="20" 
+		 android:isRepeatable="true"/>
+	<Key android:keyLabel="↑"
+		 android:codes="19"
+		 android:isRepeatable="true"/>
+    <Key android:keyLabel="→"
+		 android:codes="22"
+		 android:isRepeatable="true"/>   
+    <Key android:keyLabel="⌫"
+		 android:smallLabel="true"
+		 android:codes="-5"
+		 android:isRepeatable="true"/> 
+         
+</Row>
+
+<Row android:keyHeight="100.0%: p" android:keyWidth="100%p">
+	<Key android:keyLabel="$f#ɘ"
+	     android:codes="-336"/>
+	<Key android:keyLabel="$f#ɥ"
+		 android:codes="-322"
+		 android:longCode="-6"/>
+	<Key android:keyLabel="$f#ɢ"
+		 android:codes="-320"/>
+	<Key android:keyLabel="$f#ɣ"
+		 android:codes="-321"/>
+	<Key android:codes="32"
+		 android:keyIcon="@drawable/sym_keyboard_space"
+		 android:keyWidth="20%p"/>
+	<Key android:keyLabel="End"
+         android:codes="-329"
+         android:longCode="-304"/>
+    <Key android:keyLabel="" />
+	<Key android:keyLabel="PgDn" 
+		 android:codes="-327" />
+	<Key android:codes="10" 
+		 android:keyIcon="@drawable/sym_keyboard_return"
+		 android:isRepeatable="true" />
+</Row>
+
+</Keyboard>			

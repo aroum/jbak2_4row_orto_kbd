@@ -2,9 +2,9 @@
  Config for Jbak2 Keyboard with ortholinear 4 row layout for russian and english languages.
 
 ## Скриншоты
-![ru_qwerty_4row_v7](/images/ru_qwerty_4row_v7.png)
-![en_qwerty_4row_v7](/images/en_qwerty_4row_v7.png)
-![edittext_4row_v1](/images/edittext_4row_v1.png)
+![ru_qwerty_4row_v7](images/ru_qwerty_4row_v8.png)
+![en_qwerty_4row_v7](images/en_qwerty_4row_v8.png)
+![edittext_4row_v1](images/edittext_4row_v1.png)
 
 ## Особенности
 
@@ -28,10 +28,11 @@ en_qwerty_4row_v2 отсутствует в силу невозможности 
 3) Запускаем Jbak2 Keyboard и проводим первоначальную настройку.
 4) Jbak2 Keyboard > Резервирование настроек > Загрузить настройки > Да.
 
-## Автозамена (v7)
+## Автозамена (v8)
 
 | Исходный текст | Автозамена |
 |----------------|------------|
+| ЫЫ             | Ю          | 
 | ЬЬ             | Ъ          | 
 | ШШ             | Щ          | 
 | ЙЙ             | Э          | 
@@ -41,7 +42,7 @@ en_qwerty_4row_v2 отсутствует в силу невозможности 
 | --             | —          | 
 
 
-## Жесты (v7)
+## Жесты (v8)
 
 |  Жест              | Действие                     |
 |--------------------|------------------------------|

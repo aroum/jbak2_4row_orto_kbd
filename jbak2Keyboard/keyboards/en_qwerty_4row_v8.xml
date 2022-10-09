@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="9.97%p">
+
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel="!\n1"/>
+	<Key android:keyLabel="@\n2"/>
+	<Key android:keyLabel="#\n3"/>
+	<Key android:keyLabel="$\n4"/>
+	<Key android:keyLabel="%\n5"/>
+	<Key android:keyLabel="^\n6"/>
+	<Key android:keyLabel="&#38;\n7"/>
+	<Key android:keyLabel="*\n8"/>
+	<Key android:keyLabel="(\n9"/>
+	<Key android:keyLabel=")\n0"/>
+	<Key android:keyLabel="⌫"
+		 android:smallLabel="true"
+		 android:codes="-5"
+		 android:isRepeatable="true"/> 
+</Row>
+
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel=":\nq"/>
+	<Key android:keyLabel="&quot;\nw"/>
+	<Key android:keyLabel="~\ne"/>
+	<Key android:keyLabel="\nr"/>
+	<Key android:keyLabel="\nt"/>
+	<Key android:keyLabel="/\ny"/>
+	<Key android:keyLabel="_\nu"/>
+	<Key android:keyLabel="+\ni"/>
+	<Key android:keyLabel="[\no"
+		 android:popupCharacters="«{["
+		 android:specKey="false"/>
+	<Key android:keyLabel="]\np"
+		 android:popupCharacters="]}»"
+		 android:specKey="false"/>
+</Row>
+
+<Row android:keyHeight="100%p">
+	<Key android:keyLabel=";\na"
+	     android:longCode="-323"/> 
+	<Key android:keyLabel="'\ns"/>
+	<Key android:keyLabel="`\nd"/>
+	<Key android:keyLabel="\nf"/>
+	<Key android:keyLabel="\ng"/>
+	<Key android:keyLabel="\\\nh"/>
+	<Key android:keyLabel="-\nj"/>
+	<Key android:keyLabel="=\nk"/>
+	<Key android:keyLabel="|\nl"/>
+	<Key android:keyLabel="⌫"
+		 android:smallLabel="true"
+		 android:codes="-5"
+		 android:isRepeatable="true"      	 
+         android:longCode="-602"/> 
+</Row>
+
+<Row android:keyHeight="100%p">
+    <Key android:keyLabel="$f#ɘ\nz"
+		 android:longCode="-336"/>
+	<Key android:keyLabel="$f#ɥ\nx"
+		 android:longCode="-322"/>
+	<Key android:keyLabel="$f#ɢ\nc"
+		 android:longCode="-320"/>
+	<Key android:keyLabel="$f#ɣ\nv"
+		 android:longCode="-321"/>
+	<Key android:codes="32"
+		 android:keyIcon="@drawable/sym_keyboard_space"
+		 android:keyWidth="20%p"/>
+	<Key android:keyLabel="&lt;\nb"/>
+	<Key android:keyLabel="&gt;\nn"/>
+	<Key android:keyLabel=",\nm"/>
+	<Key android:codes="10" 
+	     android:keyIcon="@drawable/sym_keyboard_return"  />
+	<Key android:codes="-1"
+		 android:keyIcon="Shift" 
+		 android:isSticky="true"/>
+</Row>
+
+<Replace from="  " to=". "/>
+</Keyboard>
